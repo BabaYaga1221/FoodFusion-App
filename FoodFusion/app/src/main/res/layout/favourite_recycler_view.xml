@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/foodListCard"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:id="@+id/foodListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgRecycleFavourite"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:padding="10dp"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/txtViewFoodName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgRecycleFavourite"
+                android:layout_marginTop="5dp"
+                android:text="List Item"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/txtViewPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgRecycleFavourite"
+                android:layout_below="@+id/txtViewFoodName"
+                android:layout_marginTop="10dp"
+                android:text="List Item"
+                android:textColor="#7C7B7B"
+                android:textSize="16sp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/txtFoodRating"
+                android:layout_below="@+id/txtViewFoodName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/txtViewPrice"
+                android:padding="10dp"
+                android:text="4.5"
+                android:textColor="#FFC107"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/foodLike"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_action_likefill"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="100dp"
+                android:layout_toRightOf="@+id/txtViewPrice"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

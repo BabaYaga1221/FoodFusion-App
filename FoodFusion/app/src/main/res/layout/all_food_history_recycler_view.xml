@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:id="@+id/cartLine"
+            android:layout_width="30dp"
+            android:layout_height="5dp"
+            android:layout_marginStart="10dp"
+            android:background="#555555"
+            android:layout_marginTop="13dp"/>
+
+        <TextView
+            android:id="@+id/historyFoodName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FoodName"
+            android:textColor="#000"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/cartLine"/>
+
+        <TextView
+            android:id="@+id/historyFoodPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FoodPrice"
+            android:layout_toRightOf="@+id/cartLine"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_marginStart="230dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/allRestaurants"
+        android:title="All Restaurants"
+        android:icon="@drawable/ic_action_home"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="My Profile"
+        android:icon="@drawable/ic_action_person"/>
+
+    <item
+        android:id="@+id/favorite"
+        android:title="Favorite Restaurants"
+        android:icon="@drawable/ic_action_favorite"/>
+
+    <item
+        android:id="@+id/orderHistory"
+        android:title="Order History"
+        android:icon="@drawable/ic_action_order_history"/>
+
+    <item
+        android:id="@+id/faqs"
+        android:title="FAQs"
+        android:icon="@drawable/ic_action_faqs"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="Log out"
+        android:icon="@drawable/ic_action_logout"/>
+
+</menu>

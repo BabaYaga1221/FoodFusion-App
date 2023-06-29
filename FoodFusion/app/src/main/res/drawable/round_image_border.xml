@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" /> <!-- Transparent color for the background -->
+        </shape>
+    </item>
+    <item android:drawable="@drawable/profile_2"/> <!-- Replace with your image drawable -->
+    <item android:drawable="@drawable/round_border" />
+</layer-list>

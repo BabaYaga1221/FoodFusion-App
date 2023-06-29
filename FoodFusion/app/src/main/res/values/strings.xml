@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Food Fusion</string>
+    <string name="title_activity_login_page">LoginPage</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="forget_password"><u>Forget Password?</u></string>
+    <string name="Sign_up_now"><u>Don\'t have an account? Sign up now</u></string>
+    <string name="food_fusion_prefs">Shared Preferences File</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+</resources>
